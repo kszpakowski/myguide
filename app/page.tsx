@@ -3,7 +3,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col">
       <div className="wrap-breadcrumb pl-6">
         <ol className='flex p-4'>
-          <li className="before:content-['>'] before:p-2">Karol's guide</li>
+          <li className="before:content-['>'] before:p-2">Karol&apos;s guide</li>
           <li className="before:content-['>'] before:p-2">Poland</li>
           <li className="before:content-['>'] before:p-2">Warsaw</li>
           <li className="before:content-['>'] before:p-2">Restaurants</li>
