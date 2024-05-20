@@ -20,7 +20,6 @@ export default function Home() {
         '/IMG_7776.jpeg',
         '/IMG_7777.jpeg',
         '/IMG_7768.jpeg',
-        
       ]} />
       <div className='mx-auto'>
         <RestaurantDetails />
