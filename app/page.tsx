@@ -17,8 +17,8 @@ export default function Home() {
         ]} />
       </div>
       <GallerySmall urls={[
-        '/IMG_7777.jpeg',
         '/IMG_7776.jpeg',
+        '/IMG_7777.jpeg',
         '/IMG_7768.jpeg',
         
       ]} />
