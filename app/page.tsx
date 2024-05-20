@@ -10,16 +10,17 @@ export default function Home() {
       <div className="p-4">
         <BreadCrumbs breadcrumbs={[
           { label: "Karol's guide", href: '/ksz' },
-          { label: 'Poland', href: '/ksz/pl' },
-          { label: 'Warsaw', href: '/ksz/pl/warsaw' },
-          { label: 'Restaurants', href: '/ksz/pl/warsaw/restaurants' },
-          { label: 'Butchery & Wine', href: '/ksz/pl/warsaw/restaurants/1' }
+          { label: 'Italy', href: '/ksz/it' },
+          { label: 'Rome', href: '/ksz/it/rome' },
+          { label: 'Restaurants', href: '/ksz/it/rome/restaurants' },
+          { label: 'Faro - Caffè Specialty', href: '/ksz/it/rome/restaurants/1' }
         ]} />
       </div>
       <GallerySmall urls={[
-        'https://axwwgrkdco.cloudimg.io/v7/__gmpics__/80df661e26ee438580db2398c3fa2709?w=600&amp;h=600&amp;org_if_sml=1',
-        'https://axwwgrkdco.cloudimg.io/v7/__gmpics__/aafdeb461fbe428db0989f72ad898529?w=600&amp;h=600&amp;org_if_sml=1',
-        'https://axwwgrkdco.cloudimg.io/v7/__gmpics__/68f6c253dfa84cfd81f43c5e30199b81?w=600&amp;h=600&amp;org_if_sml=1'
+        '/IMG_7777.jpeg',
+        '/IMG_7776.jpeg',
+        '/IMG_7768.jpeg',
+        
       ]} />
       <div className='mx-auto'>
         <RestaurantDetails />

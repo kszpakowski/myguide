@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <nav className="flex w-full p-4 border-b">
@@ -5,9 +7,10 @@ export default function Navbar() {
                 <p className="">My Guide</p>
             </div>
             <div className="flex gap-6">
-                <p className="text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Top guides</p>
-                <p className="text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Create your guide</p>
-                <p className="text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Profile</p></div>
+                <Link href='' className="text-gray-700 hover:text-gray-400">Top guides</Link>
+                <Link href='' className="text-gray-700 hover:text-gray-400">Create your guide</Link>
+                <Link href='' className="text-gray-700 hover:text-gray-400">Profile</Link>
+            </div>
         </nav>
     )
 }

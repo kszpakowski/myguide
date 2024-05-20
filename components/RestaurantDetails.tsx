@@ -6,10 +6,10 @@ export default function RestaurantDetails(props: RestaurantDetailsProps) {
     return (
         <div className='p-10  max-w-screen-xl grid gap-12'>
             <div>
-                <h1>Butchery & Wine</h1>
+                <h1>Faro - Caffè Specialty</h1>
                 <ul className='text-sm'>
                     <li>
-                        ul. Żurawia 22, Warsaw, 00 515, Polan
+                        Via Piave, 55, 00187 Roma RM, Włochy
                     </li>
                     <li>
                         €€ · Meats and Grills, Traditional Cuisine
