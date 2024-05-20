@@ -16,11 +16,11 @@ export default function Breadcrumbs({ breadcrumbs }: BreadcrumbsProps) {
           <li key={idx}>
             <div className="flex items-center">
               {idx !== 0 && (
-                <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                <svg className="rtl:rotate-180 w-2 h-2 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m1 9 4-4-4-4" />
                 </svg>
               )}
-              <Link href={breadcrumb.href} className="text-sm font-medium text-gray-700 hover:text-gray-400">{breadcrumb.label}</Link>
+              <Link href={breadcrumb.href} className="text-sm text-gray-700 hover:text-gray-400 font-light">{breadcrumb.label}</Link>
             </div>
           </li>
         ))}
